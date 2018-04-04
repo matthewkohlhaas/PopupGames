@@ -1,0 +1,12 @@
+<a id="team-information-anchor" class="anchor"></a>
+<mat-divider></mat-divider>
+<div id="team-information-section" class="content-section">
+  <h1 class="mat-title">Team Information</h1>
+  <div class="content-section-content">
+    <div class="member-card-container" *ngFor="let member of MEMBERS">
+      <app-team-member-info [name]="member.name" [imageUrl]="member.imageUrl"
+                            [information]="member.information" [email]="member.email">
+      </app-team-member-info>
+    </div>
+  </div>
+</div>

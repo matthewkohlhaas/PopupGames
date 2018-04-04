@@ -1,0 +1,26 @@
+.member-card {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 240px;
+  margin: 0 16px 16px 16px;
+}
+
+.member-card .mat-card-header {
+  margin-top: 12px;
+}
+
+/deep/ .member-card .mat-card-header-text {
+  width: 100%;
+  text-align: center;
+}
+
+.member-card .mat-card-title {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.member-card img {
+  display: block;
+  max-width: 240px;
+  border-radius: 240px;
+}

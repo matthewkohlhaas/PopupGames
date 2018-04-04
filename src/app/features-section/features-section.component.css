@@ -1,0 +1,10 @@
+/deep/ #features-carousel .arrow:before,
+/deep/ #features-carousel .arrow:after,
+/deep/ #features-carousel .dot {
+  background-color: black;
+}
+
+#features-carousel {
+  max-width: 1000px;
+  margin: auto;
+}

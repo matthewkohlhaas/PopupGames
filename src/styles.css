@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  margin: 0;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -64px;
+  visibility: hidden;
+}
+
+.content-section {
+  padding: 20px;
+  background-color: #EEEEEE;
+}
+
+.content-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.content-section .mat-title {
+  width: calc(100% - 40px);
+  text-align: center;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.ui-carousel-item {
+  background-color: #EEEEEE !important;
+}

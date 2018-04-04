@@ -1,0 +1,14 @@
+<a id="features-anchor" class="anchor"></a>
+<mat-divider></mat-divider>
+<div id="features-section" class="content-section">
+  <h1 class="mat-title">Features</h1>
+  <div class="content-section-content">
+    <ui-carousel #uiCarousel id="features-carousel" [infinite]="true" [fade]="false" [speed]="400" [autoPlay]='true'
+                 [autoPlaySpeed]="8000" height="400px" width="100%">
+      <ui-carousel-item *ngFor="let feature of FEATURES">
+        <app-feature-info [title]="feature.title" [information]="feature.information" [imageUrl]="feature.imageUrl">
+        </app-feature-info>
+      </ui-carousel-item>
+    </ui-carousel>
+  </div>
+</div>

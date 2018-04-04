@@ -1,0 +1,25 @@
+#video-section .mat-toolbar-row {
+  height: auto;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+#video-section-video {
+  margin: auto;
+}
+
+#video-section-welcome-content {
+  max-width: 640px;
+  margin: 0 auto 0 auto;
+  padding: auto;
+  text-align: center;
+}
+
+#video-section-welcome-sentences {
+  margin: 12px;
+  white-space: normal;
+}
+
+#video-section-welcome-content .mat-raised-button {
+  margin: 6px;
+}

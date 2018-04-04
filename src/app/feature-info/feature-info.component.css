@@ -1,0 +1,20 @@
+.feature-card {
+  display: flex;
+}
+
+.feature-card-text {
+  margin: auto;
+  padding: 12px;
+  text-align: center;
+}
+
+.feature-card-title {
+  width: auto;
+  margin: 0;
+}
+
+.feature-card img {
+  display: inline-block;
+  height: 400px;
+  margin: auto;
+}

@@ -1,0 +1,10 @@
+<mat-card class="member-card">
+  <img src="{{imageUrl}}" />
+  <mat-card-header>
+    <mat-card-title>{{name}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p *ngFor="let line of information">{{line}}</p>
+    <p><b>Email:</b> <a href="mailto:{{email}}">{{email}}</a></p>
+  </mat-card-content>
+</mat-card>

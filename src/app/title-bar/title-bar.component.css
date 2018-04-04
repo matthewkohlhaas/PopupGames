@@ -1,0 +1,30 @@
+#main-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  box-shadow: 0 3px 5px -1px rgba(0,0,0,.2),
+  0 6px 10px 0 rgba(0,0,0,.14),
+  0 1px 18px 0 rgba(0,0,0,.12)
+}
+
+#main-toolbar .mat-toolbar-row {
+  min-height: 64px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+#main-toolbar-title {
+  margin-right: auto;
+  color: white;
+  text-decoration: none;
+}
+
+#main-toolbar-buttons .mat-button {
+  min-width: 76px;
+  padding: 0 6px;
+}
+
+#main-toolbar-spacer {
+  min-height: 64px;
+}
