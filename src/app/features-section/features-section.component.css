@@ -8,3 +8,8 @@
   max-width: 1000px;
   margin: auto;
 }
+
+/deep/ #features-carousel .arrow,
+/deep/ #features-carousel dots {
+  z-index: 1;
+}
