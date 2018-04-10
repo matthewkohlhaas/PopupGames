@@ -15,7 +15,7 @@ export class InformationSectionComponent {
         'Will graduate May 2018',
         'Full stack developer at ADP'
       ],
-      email: 'hdhungdo@gmail.com',
+      email: 'hdo33@gatech.edu',
       imageUrl: 'assets/hd.jpg'
     }, {
       name: 'Kavir Jones',
